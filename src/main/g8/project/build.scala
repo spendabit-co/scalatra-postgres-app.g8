@@ -5,7 +5,7 @@ import org.scalatra.sbt.PluginKeys._
 
 object build extends Build {
 
-  val version = "0.1.0"
+  val appVersion = "0.1.0"
   val scalatraVersion = "$scalatraVersion$"
 
   lazy val project = Project (
@@ -15,7 +15,7 @@ object build extends Build {
 
       organization := "$organizationPackage$",
       name := "$name$",
-      version := Version,
+      version := appVersion,
 
       scalaVersion := "$scalaVersion$",
       scalacOptions ++= Seq("-deprecation", "-feature", "-language:implicitConversions"),
