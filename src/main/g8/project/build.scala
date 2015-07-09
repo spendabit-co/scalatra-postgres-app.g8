@@ -28,7 +28,7 @@ object build extends Build {
       resourceDirectory in Test <<= (baseDirectory in Test)(_ / "resources"),
 
       resolvers += Classpaths.typesafeReleases,
-      //resolvers += "Scalaz Bintray Repo" at "http://dl.bintray.com/scalaz/releases",
+
       libraryDependencies ++= Seq(
 
         // Base webapp stack
