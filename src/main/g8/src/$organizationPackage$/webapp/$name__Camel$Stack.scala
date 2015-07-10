@@ -1,4 +1,4 @@
-package $organizationPackage$
+package $organizationPackage$.webapp
 
 import org.scalatra.ScalatraServlet
 

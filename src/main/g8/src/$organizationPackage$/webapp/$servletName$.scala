@@ -1,4 +1,4 @@
-package $organizationPackage$
+package $organizationPackage$.webapp
 
 class $servletName$ extends $name;format="Camel"$Stack {
 
